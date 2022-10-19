@@ -6,14 +6,17 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_study_app/data_uploader_screen.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_study_app/main.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget(GetMaterialApp(
+      home: DataUploaderScreen(),
+    ));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
