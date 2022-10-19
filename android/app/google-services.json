@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1059325729690",
+    "project_id": "study-app-f5d65",
+    "storage_bucket": "study-app-f5d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059325729690:android:007cd05abc0269f88cf823",
+        "android_client_info": {
+          "package_name": "com.example.flutter_study_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059325729690-goqfo3p488ev4lvo3t1s5jpf8qleng5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0moHMs2L9kMLBe1QiHaYmWVyLO_emNII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059325729690-goqfo3p488ev4lvo3t1s5jpf8qleng5v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1059325729690-6oiisons70ef36bq9k1im60hh8l0jr7c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterStudyApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
